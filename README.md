@@ -46,6 +46,8 @@ The frontend application is written in JavaScript (React) and expects Node 16 to
 - `npm install`
 - `npm start`
 
+If `npm start` does not run because the port is in use, or asks for webpack to be installed, you may find it easier to run the app as follows:  `node_modules/webpack/bin/webpack.js serve --open --mode development --port 8081`
+
 ## The Task
 
 For this assessment, we would like you to do the following:
